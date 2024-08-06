@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "name": "Launch Mc Server",
+            "preLaunchTask": "deploy"
+        },
+        {
+            "type": "java",
+            "name": "Debug Mc Server(Attach)",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": 5005,
+            "preLaunchTask": "deploy-debug"
+        },
+        {
+            "type": "java",
+            "name": "Listen Mc Server(Attach)",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": 5005
+        }
+    ]
+}

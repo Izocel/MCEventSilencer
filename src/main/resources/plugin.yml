@@ -1,0 +1,9 @@
+api: "1.15"
+name: MCEventSilencer
+version: "${project.version}"
+main: main.MCEventSilencer
+api-version: 1.15
+author: Izocel
+folia-supported: true
+softdepends: []
+
