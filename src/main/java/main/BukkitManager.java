@@ -7,16 +7,16 @@ import org.bukkit.Server;
 
 import main.events.EventManager;
 
-public class BukkitManager {
-    private static Logger getLogger() {
+public final class BukkitManager {
+    private final static Logger getLogger() {
         return Logger.getLogger("MCEventSilencer:" + BukkitManager.class.getSimpleName() + " </>:");
     }
 
-    public static Server getServer() {
+    public final static Server getServer() {
         return Bukkit.getServer();
     }
 
-    public static void registerEvents(MCEventSilencer plugin) {
+    public final static void registerEvents(MCEventSilencer plugin) {
         try {
             // Add you events here..
             new EventManager().register(plugin);
@@ -25,7 +25,7 @@ public class BukkitManager {
         }
     }
 
-    // public static void registerCommands(MCEventSilencer plugin) {
+    // public final static void registerCommands(MCEventSilencer plugin) {
 
     // }
 }

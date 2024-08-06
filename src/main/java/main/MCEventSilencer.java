@@ -20,13 +20,13 @@ public final class MCEventSilencer extends JavaPlugin implements Listener {
                 ? "@Izo"
                 : "<@272924120142970892>";
 
-        sb.append(String.format(this.getName() + " - v1.1.0\n"));
+        sb.append(String.format(this.getName() + " - v1.0.0\n"));
         sb.append(String.format(devName + "\n"));
 
         return sb.toString();
     }
 
-    public String getFiglet() {
+    public final String getFiglet() {
         return """
                 \n=======================================================================================================================
 
