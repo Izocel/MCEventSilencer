@@ -28,10 +28,32 @@ public final class MCEventSilencer extends JavaPlugin implements Listener {
 
     public String getFiglet() {
         return """
-                \n===============================================================================================================
-                                                                                        - MCEventSilencer - v1.0.0
-                                                                                        - Author: @Izocel
-                \n===============================================================================================================
+                \n=======================================================================================================================
+
+                MMMMMMMM               MMMMMMMM        CCCCCCCCCCCCC                        EEEEEEEEEEEEEEEEEEEEEE   SSSSSSSSSSSSSSS
+                M:::::::M             M:::::::M     CCC::::::::::::C                        E::::::::::::::::::::E SS:::::::::::::::S
+                M::::::::M           M::::::::M   CC:::::::::::::::C                        E::::::::::::::::::::ES:::::SSSSSS::::::S
+                M:::::::::M         M:::::::::M  C:::::CCCCCCCC::::C                        EE::::::EEEEEEEEE::::ES:::::S     SSSSSSS
+                M::::::::::M       M::::::::::M C:::::C       CCCCCC                          E:::::E       EEEEEES:::::S
+                M:::::::::::M     M:::::::::::MC:::::C                                        E:::::E             S:::::S
+                M:::::::M::::M   M::::M:::::::MC:::::C                                        E::::::EEEEEEEEEE    S::::SSSS
+                M::::::M M::::M M::::M M::::::MC:::::C                                        E:::::::::::::::E     SS::::::SSSSS
+                M::::::M  M::::M::::M  M::::::MC:::::C                                        E:::::::::::::::E       SSS::::::::SS
+                M::::::M   M:::::::M   M::::::MC:::::C                                        E::::::EEEEEEEEEE          SSSSSS::::S
+                M::::::M    M:::::M    M::::::MC:::::C                                        E:::::E                         S:::::S
+                M::::::M     MMMMM     M::::::M C:::::C       CCCCCC                          E:::::E       EEEEEE            S:::::S
+                M::::::M               M::::::M  C:::::CCCCCCCC::::C                        EE::::::EEEEEEEE:::::ESSSSSSS     S:::::S
+                M::::::M               M::::::M   CC:::::::::::::::C                        E::::::::::::::::::::ES::::::SSSSSS:::::S
+                M::::::M               M::::::M     CCC::::::::::::C                        E::::::::::::::::::::ES:::::::::::::::SS
+                MMMMMMMM               MMMMMMMM        CCCCCCCCCCCCC                        EEEEEEEEEEEEEEEEEEEEEE SSSSSSSSSSSSSSS
+                                                                    ________________________
+                                                                    _::::::::::::::::::::::_
+                                                                    ________________________
+
+
+                                                                                                    - MC-EventSilencer - v1.0.0
+                                                                                                    - Author: @Izocel
+                \n=======================================================================================================================
                 """;
     }
 
